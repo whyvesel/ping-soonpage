@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.illustration {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="email"] {
+    height: 40px;
+    width: 300px;
+    padding-left: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 25px;
+    margin-right: 25px;
+  }
+
+input[type="submit"] {
+    border-radius: 25px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0px 5px 5px hsl(223, 87%, 70%);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin: 25px;
+}
+}
+
+a {
+  margin: 10px;
+  height: 38px;
+  width: 38px;
+}
+
+
+
+li:last-child {
+  margin-right: 65px;
+}
+
+i {
+  color: hsl(223, 87%, 53%);
+}
+
+.copyright {
+  color: hsl(0, 0%, 59%);
+  margin-top: 45px;
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+
+
+
+@media (max-width: 375px) {
+  header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+    
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  input[type="email"] {
+    height: 50px;
+    padding-left: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 25px;
+  }
+    
+  input[type="submit"] {
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    font-size: 15px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 5px hsl(223, 87%, 70%);
+  }
+    
+  input[type="submit"]:hover {
+    background-color: hsl(223, 87%, 53%);
+  }
+
+  .illustration {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+    
+
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
